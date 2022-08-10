@@ -25,6 +25,8 @@ import time
 
 CHECKIN_EARLY_SECONDS = 5
 
+#test
+
 
 def schedule_checkin(flight_time, reservation):
     checkin_time = flight_time - timedelta(days=1)
